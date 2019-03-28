@@ -32,15 +32,15 @@ class detectFace:
 
 
 
-
-
     def convertImageToBase64(self, image_path):
         img = open(image_path,'rb')
         img = img.read()
         image = base64.b64encode(img)
         payload = {'image':image}
         print("#"*10, "Converted image", "#"*10)
+
         return payload
+
 
     def uploadData(self, payload, url, storage, image_name):
         response = requests.post(
@@ -61,4 +61,4 @@ class detectFace:
                 print("#"*10, "no issues", "#"*10)
                 return 0
         else:
-            print(None)
+            print("#"*10, "Kindly check your api_key or Internet connection", "#"*10)
