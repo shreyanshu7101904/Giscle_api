@@ -5,12 +5,12 @@ import argparse
 
 if __name__ == "__main__":
     face_ob = detectFace(api_key, secret_key)
-    ap = argparse.ArgumentParser()
+    ap = argparse.ArgumentParser() 
     ap.add_argument("-v", "--video", required=True,
         help="path to input video file")
     args = vars(ap.parse_args())
     try:
-        saveframedir = str(os.getcwd()) + "/Scripts/Frames/"
+        saveframedir = str(os.getcwd()) + "Giscle_api/Scripts/Frames/"
         face_ob.generateImageFromVideo(args["video"], saveframedir)
         os.chdir(saveframedir)
         images_list = list(os.listdir())

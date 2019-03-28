@@ -7,4 +7,4 @@ install:
   - pip install -r requirements.txt
 # command to run tests
 script:
-  - pytest
+  - test -v Giscle_api/video_data.mp4 
