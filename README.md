@@ -10,3 +10,6 @@ then run
 after that run init.py file by providing video location arguments.
 
 ## python init.py -v location/to/videofile
+
+
+https://travis-ci.org/shreyanshu7101904/Giscle_api.svg?branch=master
