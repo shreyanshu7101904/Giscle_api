@@ -10,7 +10,7 @@ if __name__ == "__main__":
         help="path to input video file")
     args = vars(ap.parse_args())
     try:
-        saveframedir = str(os.getcwd()) + "Giscle_api/Scripts/Frames/"
+        saveframedir = str(os.getcwd()) + "/Giscle_api/Scripts/Frames/"
         face_ob.generateImageFromVideo(args["video"], saveframedir)
         os.chdir(saveframedir)
         images_list = list(os.listdir())
