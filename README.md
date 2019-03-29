@@ -1,5 +1,5 @@
-(https://travis-ci.org/shreyanshu7101904/Giscle_api.svg?branch=master)
 
+[![Build Status](https://travis-ci.org/shreyanshu7101904/Giscle_api.svg?branch=master)](https://travis-ci.org/shreyanshu7101904/Giscle_api)
 # Giscle_api
 
 on ubuntu system you need to install speech dispatcher using command
