@@ -55,8 +55,12 @@ class detectFace:
             val = len(result['Data'][2].keys())
             print(len(result['Data'][2].keys()))
             if val >6:
-                os.system('spd-say "Alert detected more than 6 people."')
-                return 1
+                try:
+                    os.system('spd-say "Alert detected more than 6 people."')
+                    return 1, val
+                except Exception as ex:
+                    print("#"*10, "Speech processing software not installed", "#"*10)
+                    print("#"*10, "Alert Alert Alert", "#"*10)
             else:
                 print("#"*10, "no issues", "#"*10)
                 return 0
