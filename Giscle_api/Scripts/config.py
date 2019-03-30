@@ -1,4 +1,4 @@
-api_key = "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJmaXJzdG5hbWUiOiI3MTAxOTA0YSIsInVzZXJuYW1lIjoic2hyMTUwMiIsImVtYWlsIjoic2hyZXlhbnNodXBlcmZlY3QxM0BnbWFpbC5jb20ifQ.ZpoC_RGksjAJp9HyxsrKcF5C5iKc3qprvM-eq3k1qNI"
-secret_key = "5ede05148942f22ca895907f4ddb30d3"
+api_key = "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJmaXJzdG5hbWUiOiJzaHJleWFuc2h1IiwidXNlcm5hbWUiOiJzaHIxNTAzIiwiZW1haWwiOiJzaHJleWFuc2h1NzEwMTkwNEB"
+secret_key = "f9a2d8d3d103d9e7b45ba8b56eb1e1ad"
 toStore = str(0)
 url = 'http://api.giscle.ml'
